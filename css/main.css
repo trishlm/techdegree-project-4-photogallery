@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -11,4 +20,30 @@ img {
 
 img:hover {
   outline: 2px solid lightgrey;
+}
+
+.searchbox {
+  display: block;
+  margin: auto;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  width: 50%;
+  padding: 10px 18px;
+  margin-bottom: 50px;
+  color: darkgrey;
+}
+
+::-webkit-input-placeholder {
+  color: darkgrey;
+}
+
+.pix {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media(min-width:1024px) {
+  .row1, .row2, .row3 {
+    flex-basis: 25%;
+  }
 }
