@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+img:hover {
+  outline: 2px solid lightgrey;
+}
