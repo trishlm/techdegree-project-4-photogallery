@@ -11,6 +11,12 @@ body {
   padding-right: 100px;
 }
 
+.lightbox {
+  width: 75%;
+  max-height: 198px;
+  object-fit: cover;
+}
+
 img {
   display: block;
   margin-left: auto;
