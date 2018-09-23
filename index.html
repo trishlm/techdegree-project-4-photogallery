@@ -17,116 +17,90 @@
     <input type="search" name="searchGallery" placeholder="Search..." class="searchbox" id="searchInput">
   </div>
 
-  <ul class="pix" id="searchpix" style="list-style-type:none">
+  <div class="pix" id="searchpix">
 
     <div class="row1">
       <a class="lightbox" target="_blank" href="photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-        <li>
           <img src="photos/thumbnails/01.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-        </li>
       </a>
     </div>
 
     <div class="row1">
       <a class="lightbox" target="_blank" href="photos/02.jpg" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.">
-        <li>
           <img src="photos/thumbnails/02.jpg" title="Lake" alt="The lake was so calm today. We had a great view of the snow on the mountains from here.">
-        </li>
       </a>
     </div>
 
     <div class="row1">
-      <li>
         <a class="lightbox" target="_blank" href="photos/03.jpg" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
           <img src="photos/thumbnails/03.jpg" title="Canyon" alt="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
         </a>
-      </li>
     </div>
 
     <div class="row1">
-      <li>
         <a class="lightbox" target="_blank" href="photos/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
           <img src="photos/thumbnails/04.jpg" title="Iceberg" alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
         </a>
-      </li>
     </div>
 
     <div class="row2">
-      <li>
         <a class="lightbox" target="_blank" href="photos/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
           <img src="photos/thumbnails/05.jpg" title="Desert" alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
         </a>
-      </li>
     </div>
 
     <div class="row2">
-      <li>
         <a class="lightbox" target="_blank" href="photos/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees start to change color.">
           <img src="photos/thumbnails/06.jpg" title="Fall" alt="Fall is coming, I love when the leaves on the trees start to change color.">
         </a>
-      </li>
     </div>
 
     <div class="row2">
-      <li>
         <a class="lightbox" target="_blank" href="photos/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
           <img src="photos/thumbnails/07.jpg" title="Plantation" alt="I drove past this plantation yesterday, everything is so green!">
         </a>
-      </li>
     </div>
 
     <div class="row2">
-      <li>
         <a class="lightbox" target="_blank" href="photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
           <img src="photos/thumbnails/08.jpg" title="Dunes" alt="My summer vacation to the Oregon Coast. I love the sandy dunes!">
         </a>
-      </li>
     </div>
 
     <div class="row3">
-      <li>
         <a class="lightbox" target="_blank" href="photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane.">
           <img src="photos/thumbnails/09.jpg" title="Countryside Lane" alt="We enjoyed a quiet stroll down this countryside lane.">
         </a>
-      </li>
     </div>
 
     <div class="row3">
-      <li>
         <a class="lightbox" target="_blank" href="photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
           <img src="photos/thumbnails/10.jpg" title="Sunset" alt="Sunset at the coast! The sky turned a lovely shade of orange.">
         </a>
-      </li>
     </div>
 
     <div class="row3">
-      <li>
         <a class="lightbox" target="_blank" href="photos/11.jpg" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
           <img src="photos/thumbnails/11.jpg" title="Cave" alt="I did a tour of a cave today and the view of the landscape below was breathtaking.">
         </a>
-      </li>
     </div>
 
     <div class="row3">
-      <li>
         <a class="lightbox" target="_blank" href="photos/12.jpg" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
           <img src="photos/thumbnails/12.jpg" title="Bluebells" alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
         </a>
-      </li>
     </div>
 
   </div>
+
   <div id="show-text"></div>
 
-
-  <script type="text/javascript" src="js/jquery-1-11-2.min.js"></script>
+  <script src="js/jquery-1-11-2.min.js"></script>
   <script src="js/baguetteBox/baguetteBox.min.js"></script>
-
 
   <script>
     baguetteBox.run('.pix');
   </script>
-
 
   <script>
   $("#searchInput").keyup(function() {
@@ -139,7 +113,6 @@
       }
   });
   </script>
-
 
 
 </body>
