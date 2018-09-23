@@ -7,26 +7,35 @@ body {
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-.lightbox {
-  width: 75%;
-  max-height: 198px;
-  object-fit: cover;
-}
 
-img {
+
+.pix img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+
 }
 
-img:hover {
-  outline: 2px solid lightgrey;
-}
+/* --Adjusting picture size--*/
+/* a .lightbox {
+  display: block;
+  max-width: 50%;
+
+} */
+
+
+
+/*--End Adjusting picture size-- */
+
+
+
+
+
 
 .searchbox {
   display: block;
@@ -43,13 +52,14 @@ img:hover {
   color: darkgrey;
 }
 
-.pix {
-  display: flex;
-  flex-wrap: wrap;
+@media(min-width:769px) {
+.pix img {
+  display: block;
+  float: left;
 }
 
 @media(min-width:1024px) {
-  .row1, .row2, .row3 {
-    flex-basis: 25%;
+  .row1 img, .row2 img, .row3 img {
+    width: 25%;
   }
 }
