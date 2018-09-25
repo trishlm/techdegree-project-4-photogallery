@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-
+    outline: none;
 }
 
 body {
@@ -33,12 +33,11 @@ body {
   color: darkgrey;
 }
 
-/* /---Added this section--/ */
+
 #baguetteBox-overlay .full-image img {
   max-height: 75%;
   max-width: 75%;
 }
-/* /---Added above section--/ */
 
 
 ::-webkit-input-placeholder {
@@ -59,8 +58,5 @@ body {
 @media(min-width:1024px) {
   .row1 img, .row2 img, .row3 img {
     min-width: 25%;
-  }
-
-
-
+}
 }
